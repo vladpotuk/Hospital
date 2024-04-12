@@ -1,0 +1,10 @@
+INSERT INTO Departments (Building, Financing, [Floor], Name) VALUES (1, 25000, 2, 'Department A');
+INSERT INTO Departments (Building, Financing, [Floor], Name) VALUES (3, 30000, 4, 'Department B');
+INSERT INTO Diseases (Name, Severity) VALUES ('Flu', 3);
+INSERT INTO Diseases (Name, Severity) VALUES ('Cold', 2);
+INSERT INTO Doctors (Name, Phone, Premium, Salary, Surname) VALUES ('John', '1234567890', 1000, 5000, 'Doe');
+INSERT INTO Doctors (Name, Phone, Premium, Salary, Surname) VALUES ('Jane', '0987654321', 1500, 6000, 'Smith');
+INSERT INTO Examinations (DayOfWeek, EndTime, Name, StartTime) VALUES (1, '12:00', 'Physical Exam', '10:00');
+INSERT INTO Examinations (DayOfWeek, EndTime, Name, StartTime) VALUES (2, '14:00', 'Blood Test', '13:00');
+INSERT INTO Wards (Building, [Floor], Name) VALUES (2, 3, 'Ward 101');
+INSERT INTO Wards (Building, [Floor], Name) VALUES (4, 1, 'Ward 201');
